@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../Components/Header'
 import Footer from '../Components/Footer';
+import ListarProdutos from '../Components/ListarProdutos';
 import "../globals.css";
 export default function Home() {
     const [listaObjetos, setListaObjetos] = useState([
