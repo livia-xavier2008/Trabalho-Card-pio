@@ -6,10 +6,12 @@ export default function Header() {
       <style>
         {`
         .header{
-background-color: gray;
+background-color: #ffb6c1;
             padding: 23px;
             display: flex;
             align-items: center;
+            height: 50px;
+
           .cabecalho {
             max-width: 1200px;
             margin: 0 auto;

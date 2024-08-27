@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import ListarProdutos from '../Components/ListarProdutos';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import "../globals.css";
+
+
+
 
 export default function Home() {
   const [listaObjetos, setListaObjetos] = useState([
@@ -47,9 +53,37 @@ export default function Home() {
     },
   ]);
 
+
+
+
   return (
     <div>
       <Header />
+      <Carousel
+                infiniteLoop
+                useKeyboardArrows
+                autoPlay
+                showArrows={true}
+                showStatus={false}
+                showThumbs={false}
+                dynamicHeight
+              >
+                  <div>
+                      <img src="https://i.pinimg.com/736x/fe/4d/1b/fe4d1bf20bfc684c6e3eae1bd3e46962.jpg" alt="Slide 1"  style={{ 
+                      height: '270px'}}/>
+                  </div>
+
+                  <div>
+                      <img src="https://wpdean.com/wp-content/uploads/2023/10/image-2023-10-31T204127.361.jpg" alt="Slide 2"  style={{ 
+                      height: '270px'}}/>
+                  </div>
+
+                  <div>
+                      <img src="https://storage.googleapis.com/website-production/uploads/2015/02/image-slider-landing-pages.jpg  " alt="Slide 2"  style={{ 
+                      height: '270px'}}/>
+                  </div>
+      
+            </Carousel>
       <ListarProdutos listaObjetos={listaObjetos} />
       <Footer />
     </div>

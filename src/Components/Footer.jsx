@@ -6,7 +6,7 @@ export default function Footer() {
       <style>
         {`
           .footer {
-            background-color: #f9f9f9;
+            background-color: #ffb6c1;
             padding: 10px 0;
             color: #333;
             position: relative;
@@ -45,7 +45,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-left">
-            &copy; 2023 Loja de Roupas Femininas. Todos os direitos reservados.
+            &copy; 2024 Lxshein. Todos os direitos reservados.
           </div>
         </div>
       </div>
