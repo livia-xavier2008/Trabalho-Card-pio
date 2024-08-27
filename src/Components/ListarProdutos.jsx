@@ -3,8 +3,14 @@ export default function ListarProdutos({ listaObjetos }) {
     <div>
       <style>
         {`
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+          * {
+            font-family: 'Open Sans', sans-serif;
+          }
+
           .bloco-produtos {
-            padding: 20px;
+            padding: 40px;
             background-color: #f0f0f0;
             display: flex;
             flex-wrap: wrap;
@@ -12,31 +18,42 @@ export default function ListarProdutos({ listaObjetos }) {
           }
 
           .bloco-produto {
-            margin: 32px;
-            padding: 10px;
+            margin: 40px;
+            padding: 20px;
             border: 1px solid #ddd;
-            width: 200px;
-            height: 250px;
+            width: 300px;
+            height: 400px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           }
 
           .produto-nome {
-            font-size: 18px;
+            font-size: 24px;
             font-weight: bold;
+            margin-bottom: 10px;
           }
 
           #image-objeto {
-            width: 80px;
-            height: 80px;
-            border-radius: 5px;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin-bottom: 20px;
           }
 
           .tag-frete {
-            font-size: 14px;
-            color: blue;
+            font-size: 16px;
+            color: #337ab7;
             font-style: italic;
+            margin-bottom: 10px;
+          }
+
+          .produto-preco {
+            font-size: 20px;
+            font-weight: bold;
+            color: #337ab7;
           }
         `}
       </style>
@@ -47,7 +64,7 @@ export default function ListarProdutos({ listaObjetos }) {
             <img id="image-objeto" src={produto.image} alt={produto.nome} />
             <p>{produto.item}</p>
             <p className="tag-frete">Frete Grátis</p>
-            <p>R$ {produto.preco},00</p>
+            <p className="produto-preco">R$ {produto.preco},00</p>
           </div>
         ))}
       </div>

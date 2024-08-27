@@ -69,18 +69,18 @@ export default function Home() {
                 dynamicHeight
               >
                   <div>
-                      <img src="https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/2a9d1ee8-32fd-4a82-aa8f-058b65195358___7e44e3968174df4d4ba45387753bb8d4.png" alt="Slide 1"  style={{ 
-                      height: '270px'}}/>
+                      <img src="https://cdn.vnda.com.br/majeste/2024/08/01/7_8_6_617_vestidofestalongocasualconjuntotopsaiamajeste.jpg?v=1723033062" alt="Slide 1"  style={{ 
+                      height: '500px'}}/>
                   </div>
 
                   <div>
-                      <img src="https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/e32a0027-7845-4f71-a9d5-c33e1fa37377___217c47cbd2f1726604b4a85da4603310.png" alt="Slide 2"  style={{ 
-                      height: '270px'}}/>
+                      <img src="https://cdn.vnda.com.br/majeste/2024/08/06/17_8_4_489_roupacasualconjuntotopcalafestidomidicurto.jpg?v=1723033072" alt="Slide 2"  style={{ 
+                      height: '500px'}}/>
                   </div>
 
                   <div>
-                      <img src="https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/803a5318-357b-42f3-8e8c-b89d9187e9b7___ba28b293eee0c5c1465d09b7875a3082.png" alt="Slide 2"  style={{ 
-                      height: '270px'}}/>
+                      <img src="https://cdn.vnda.com.br/majeste/2024/08/15/10_8_8_830_vestidofestalongocurtomidisalemajeste4.jpg?v=1723727152" alt="Slide 2"  style={{ 
+                      height: '500px'}}/>
                   </div>
       
             </Carousel>
