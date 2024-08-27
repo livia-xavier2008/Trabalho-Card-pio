@@ -69,17 +69,17 @@ export default function Home() {
                 dynamicHeight
               >
                   <div>
-                      <img src="https://i.pinimg.com/736x/fe/4d/1b/fe4d1bf20bfc684c6e3eae1bd3e46962.jpg" alt="Slide 1"  style={{ 
+                      <img src="https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/2a9d1ee8-32fd-4a82-aa8f-058b65195358___7e44e3968174df4d4ba45387753bb8d4.png" alt="Slide 1"  style={{ 
                       height: '270px'}}/>
                   </div>
 
                   <div>
-                      <img src="https://wpdean.com/wp-content/uploads/2023/10/image-2023-10-31T204127.361.jpg" alt="Slide 2"  style={{ 
+                      <img src="https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/e32a0027-7845-4f71-a9d5-c33e1fa37377___217c47cbd2f1726604b4a85da4603310.png" alt="Slide 2"  style={{ 
                       height: '270px'}}/>
                   </div>
 
                   <div>
-                      <img src="https://storage.googleapis.com/website-production/uploads/2015/02/image-slider-landing-pages.jpg  " alt="Slide 2"  style={{ 
+                      <img src="https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/803a5318-357b-42f3-8e8c-b89d9187e9b7___ba28b293eee0c5c1465d09b7875a3082.png" alt="Slide 2"  style={{ 
                       height: '270px'}}/>
                   </div>
       
