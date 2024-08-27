@@ -9,7 +9,7 @@ export default function Footer() {
             background-color: #f9f9f9;
             padding: 10px 0;
             color: #333;
-            position: absolute;
+            position: relative;
             bottom: 0;
             width: 100%;
             height: 50px;
@@ -19,10 +19,13 @@ export default function Footer() {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
           }
 
           .footer-left {
             font-size: 12px;
+            flex-basis:50%;
+            text-align: right;
           }
 
           .footer-right {
